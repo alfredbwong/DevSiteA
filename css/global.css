@@ -1,0 +1,41 @@
+*{
+    padding-inline-start: 0px;
+}
+body{
+    margin:0px;
+}
+.header {
+    background-image: url(../img/hajime-ippo-bg.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: right;
+    height:720px;
+}
+
+.nav-container{
+    float:right;
+    list-style-type: none;
+    text-align: center;
+    height: 600px;
+    margin:0 50px 0 0;
+}
+
+.nav-container ul.nav{
+    height:450px;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav-container ul.nav li{
+    list-style-type: none;
+    flex-grow: 1;
+}
+.nav-container ul.nav li a{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 6;
+}
