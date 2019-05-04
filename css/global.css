@@ -1,22 +1,37 @@
-#header .logo {
-    width: 490px;
-    margin: 0 auto;
-    z-index: 10;
-    position: relative;
+*{
+    margin:0;
+    padding:0;
 }
-.nav-item{
-    background-repeat: no-repeat;
+
+.top-half-header{
+   height: 50vh;
+   background-color: rgb(105, 86, 190);
+   position: relative;
 }
-#nav-banner{
-    background-image: url(../img/hajime-ippo-bg.jpg);
-    width: 100vw;
-    height: 720px;
-    background-repeat: no-repeat;
+@media only screen and (max-width: 425px) {
+
+    .logo{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        width: 40%;
+    }
 }
-#nav-banner ul{
-    float: right;
-    list-style-type: none;
-    padding-inline-start: 0;
-    padding-right:50px;
-    padding-top: 50px;
+@media only screen and (max-width: 769px) {
+    .logo{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        width: 40%;
+    }
+
+}
+@media only screen and (min-width: 770px) {
+    .logo{
+        position: absolute;
+        top: 35%;
+        left: 30%;
+        width: 40%;
+    }
+
 }
