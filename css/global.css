@@ -8,8 +8,22 @@
    background-color: rgb(105, 86, 190);
    position: relative;
 }
-@media only screen and (max-width: 425px) {
+.profile {
+    width: 50%;
+    text-align: center;
+    margin:auto;
+}
 
+.section-header{
+    margin-bottom: 10px;
+}
+.section-content{
+    padding: 10px;
+}
+@media only screen and (max-width: 425px) {
+    header{
+        height:100vh;
+    }
     .logo{
         position: absolute;
         top: 30%;
@@ -17,7 +31,10 @@
         width: 40%;
     }
 }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1000px) {
+    header{
+        height:60vh;
+    }
     .logo{
         position: absolute;
         top: 15%;
@@ -26,7 +43,10 @@
     }
 
 }
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 1001px) {
+    header{
+        height:80vh;
+    }
     .logo{
         position: absolute;
         top: 35%;
