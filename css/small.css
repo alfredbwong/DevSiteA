@@ -1,0 +1,9 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: auto;
+    grid-row-gap: 25px;
+
+}
+.img-logo{
+    width:250px;
+}

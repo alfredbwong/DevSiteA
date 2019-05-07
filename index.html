@@ -5,22 +5,97 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" media="screen and (max-device-width: 600px)" href="css/small.css" />
+    <link rel="stylesheet" media="screen and (min-device-width: 600px)" href="css/medium.css" />
+    <link rel="stylesheet" media="screen and (min-device-width: 1200px)" href="css/large.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 </head>
 
 <body>
     <header>
-        <div class="top-half-header">
-            <img class="logo" src="img/company-logo.PNG">
+        <div class="header-nav-panel">
+            <img class="img-logo" src="img/company-logo.PNG">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experiences">Experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#abilities">Abilities</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">Projects</a>
+                </li>
+            </ul>
         </div>
     </header>
     <section>
-        <div class="profile">
-            <h2 class="section-header">Who am I?</h2>
-            <p class="section-content"> Software develop extrodinaire. Hello, my name is Alfred Wong. I recently graduated from McMaster University in the field of Engineering
-                and I am out to make a name for myself in the field of software. I personally found my interest in software when I did my first internship 
-                back in 2015 in Ottawa for Ericsson Canada Inc working alongisde like-minded individuals and upon graduating started work as a young TCS consultant for
-                CIBC as a mobile web application developer. New technologies, analytics, optimization are all facets that get me excited to be working in this industry. 
-            </p>
+        <a name="profile"></a>
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-label">Profile</h2>
+                <span class="content">Full-stack Java developer</span>
+            </div>
+            <div class="section-content">
+                <h3 class="content-label">About Me</h3>
+                <p class="content">I am a Mechatronics Engineering graduate from McMaster University. Working hard and
+                    playing hard is motto.
+                    Learning new technologies gets me excited and working with a team makes it all the more fun. I code
+                    with
+                    design and quality in mind, and optimizing code makes me proud of the work I do. Team up with me and
+                    see just how much we can learn.
+                </p>
+            </div>
+            <div>
+                <img class="img-profile" src="img/ness.png">
+                <h3 class="content-label">Details</h3>
+                <div class="detail content">
+                    <strong>Name:</strong><br>
+                    <span>Alfred Wong</span>
+                </div>
+                <div class="detail content">
+                    <strong>Age:</strong><br>
+                    <span>25</span>
+                </div>
+                <div class="detail content">
+                    <strong>Location:</strong><br>
+                    <span>Toronto, Ontario, Canada</span>
+                </div>
+            </div>
         </div>
     </section>
+    <section>
+        <a name="experiences"></a>
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-label">Experiences</h2>
+            </div>
+            <div class="section-content">
+                <h3 class="content-label">Careers</h3>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h4>Tata Consultancy Services</h4>
+                        <span>June 2017 - Present</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>Software Developer</strong>
+                        <p>Working as a vendored contractor to CIBC as a mobile web application developer.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Ericsson Canada Inc.</h4>
+                        <span>June 2015 - September 2016</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>System Engineer Intern</strong>
+                        <p>Working as a tools developer for making an analytics framework for collecting LTE network
+                            simulation data.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
 </body>
