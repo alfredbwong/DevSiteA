@@ -9,10 +9,10 @@
     width:400px;
 }
 .nav-list{
-    width: 50%;
+    width:50%;
     margin:auto;
 }
 .nav-list li{
+    width:25%;
     float: left;
-    margin: 0px 10px;    
 }
