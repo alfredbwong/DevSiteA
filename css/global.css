@@ -1,7 +1,32 @@
 *{
+    font-family: 'Open Sans', sans-serif;
     margin:0;
     padding:0;
-    font-family: 'Open Sans', sans-serif;
+}
+.ability-item{
+    
+    float: left;
+    font-size: 15px;
+    width:55%;
+}
+.ability-list{
+    list-style-type: none;
+    text-align: left;
+}
+.ability-list li{
+    min-height: 30px;
+}
+.ability-rank{
+    float:right;
+}
+.ability-rank i{
+    float:left;
+}
+.skills{
+    text-align: left;
+}
+.align-right{
+    text-align: right;
 }
 .content{
     color: #727878;
@@ -13,7 +38,15 @@
 .detail{
     margin-bottom: 10px;
 }
-
+.filled{
+    color: rgb(105, 86, 190);
+}
+h1{
+    font-size: 40px;
+    color: rgb(105, 86, 190);
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
 h2, h3, h4{
     color: rgb(105, 86, 190);
     padding-bottom: 15px;
@@ -46,7 +79,7 @@ header{
 }
 .section-container {
     height: 90%;
-    margin:auto;
+    margin: auto;
     padding: 10px;
     position:relative;
     text-align: center;
@@ -59,15 +92,15 @@ section{
 
 .section-content{
     padding: 10px;
+    
 }
 .section-header{
     position:relative;
     margin: 15px;
 }
-.section-label{
-    font-size: 36px;
-}
 span{
     margin-bottom: 10px;
 }
-
+.unfilled{
+    color:transparent;
+}

@@ -1,3 +1,18 @@
+.ability-item{
+    
+    float: left;
+    text-align: center;
+}
+.ability-list{
+    width:60%;
+    margin:auto;
+}
+.ability-rank{
+    float: none;
+}
+.ability-rank i{
+    float: none;
+}
 .grid-container{
     display:grid;
     grid-template-columns: auto auto;
@@ -15,4 +30,7 @@
 .nav-list li{
     width:25%;
     float: left;
+}
+.skills{
+    text-align: center;
 }
